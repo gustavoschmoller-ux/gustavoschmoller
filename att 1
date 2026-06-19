@@ -1,1 +1,17 @@
-vjfhjgj
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+ </head>
+ <body>
+    <h1>meu blog sobr aves</h1>
+ <p>hoje vim compartilhar um pouco dos meus conhecimentos sobre multação de pavõens </p>
+
+ <h2>meu primeiro post</h2>
+ <p>por Gustavo Henrique Martini Schmoller</p>
+ <p>Boas-vindas ao meu novo blog! aqui vou compartilhar muitas dicas sobre multação de pavõens</p>
+ </body>
+ </html>
