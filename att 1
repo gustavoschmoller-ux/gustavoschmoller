@@ -1,6 +1,4 @@
-
-
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html lang="pt-br">
  <head>
     <meta charset="UTF-8">
@@ -23,10 +21,17 @@
          color: #0070E8; 
        max-width: 800px;
          margin: o auto;
-         
+         padding: 16px;
+         display: flex;
+     
+      }
+      main{
+        width: 80px;
+        height: 80px;
       }
     </style>
- </head>
+      </head>
+
  <body>
       <header>
      
@@ -34,9 +39,12 @@
     <p>hoje vim compartilhar um pouco dos meus conhecimentos sobre multação de pavõens </p>
     </header>
     </main>
+     <img src="imagem-blog.png" 
+    alt="Logotipo conceitual de tecnologia e educação:um livro aberto de onde emerge um célebro digital brilhante, cercado por icones de Wi-Fi,ciquitos e lânpadas
+    de ideia. Cores em tom de azul e branco">
     <h2>meu primeiro post</h2>
     <p>por Gustavo Henrique Martini Schmoller</p>
     <p>Boas-vindas ao meu novo blog! aqui vou compartilhar muitas dicas sobre multação de pavõens</p>
-    </main>
+     </main>
   </body>
  </html>
