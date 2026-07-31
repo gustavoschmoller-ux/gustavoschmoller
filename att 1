@@ -49,10 +49,25 @@
     alt="Logotipo conceitual de tecnologia e educação:um livro aberto de onde emerge um célebro digital brilhante, cercado por icones de Wi-Fi,ciquitos e lânpadas
     de ideia. Cores em tom de azul e branco">
     <div
-  <h2>meu primeiro post</h2>
+     <h2>meu primeiro post</h2>
     <p> class= "artigo-autor" por Gustavo Henrique Martini Schmoller</p>
     <p>Boas-vindas ao meu novo blog! aqui vou compartilhar muitas dicas sobre multação de pavõens</p>
+    <button> ~ <span>0</span></button>
     </div>
+
     </main>
   </body>
+ <script>                              
+  const botao = document.querySelector("button");
+  botao.addEventListener("click", botaoClicado);
+
+  function botaoClicado(){  
+    console.log("fui clicado");
+    let toxto = botao.querySelector("span");
+    texto.textoContent++;
+
+
+  }
+</script>
+
  </html>
