@@ -22,9 +22,13 @@
        max-width: 800px;
          margin: o auto;
          padding: 16px;
-         display: flex;
-     
+
       }
+         article{
+         display: flex;
+         }
+     
+      
       img {
       
         width: 80px;
@@ -45,7 +49,8 @@
     <p>hoje vim compartilhar um pouco dos meus conhecimentos sobre multacao de pavoens </p>
     </header>
     </main>
-     <img src="imagem-blog.png" 
+           <article>
+ <img src="imagem-blog.png" 
     alt="Logotipo conceitual de tecnologia e educacao:um livro aberto de onde emerge um celebro digital brilhante, cercado por icones de Wi-Fi,ciquitos e lanpadas
     de ideia. Cores em tom de azul e branco">
     <div
@@ -56,8 +61,21 @@
     <button> 🩵 <span>0</span></button>
     <button> 🤙 <span>0</span></button>
   </div>
-
-
+</article>
+    <article>
+      <img src="imagem-blog.png" 
+    alt="Logotipo conceitual de tecnologia e educacao:um livro aberto de onde emerge um celebro digital brilhante, cercado por icones de Wi-Fi,ciquitos e lanpadas
+    de ideia. Cores em tom de azul e branco">
+    <div
+     <h2>meu segundo post</h2>
+    <p> class= "artigo-autor" por Gustavo Henrique Martini Schmoller</p>
+    <p>Boas-vindas ao meu novo blog! aqui vou compartilhar muitas dicas sobre especies de faisao</p>
+    
+    <button> 🩵 <span>0</span></button>
+    <button> 🤙 <span>0</span></button>
+  </div>
+    </article>
+t</h2>
     </main>
   </body>
  <script>                              
