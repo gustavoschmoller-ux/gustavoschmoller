@@ -114,8 +114,8 @@ border-radius: 50%;
 
     <body>
         <header>
-        <h1>Meu blog de chuteiras</h1>
-        <p>Vou compartilhar meus conhecimentos sobres tenis de futsal</p> 
+        <h1>Meu blog sobre pavoens</h1>
+        <p>Vou compartilhar meus conhecimentos sbre multaçoens de pavaons</p> 
         </header>
         <main>
             <article>
@@ -123,8 +123,8 @@ border-radius: 50%;
                  alt="Chuteira de futsal Joma Top Flex Pro 5 na cor azul com detalhes em branco, posicionada em destaque no chão de uma quadra esportiva. Ao fundo, uma bola de futebol de salão e as traves do gol aparecem desfocadas. O ambiente segue uma paleta de cores em tons de azul escuro.">
     <div>
          <h2>Meu primeiro post</h2>
-            <p class="artigo-autor">Por: Otavio de Souza</p>
-            <p>Boas vindas ao meu novo blog! Aqui vou compartilhar dicas de chuteiras e curiosidades delas</p>
+            <p class="artigo-autor">Por: Gustavo Henrique Martini Schmoller </p>
+            <p>Boas vindas ao meu novo blog! Aqui vou compartilhar meus conhecimentos de pavoens e outras aves</p>
             <button>卐 <span>0</span></button>
             <button>🥸  <span>0</span></button>
     </div>
@@ -135,10 +135,10 @@ border-radius: 50%;
                 <img src="imagem-blog.png"
                  alt="Chuteira de futsal Joma Top Flex Pro 5 na cor azul com detalhes em branco, posicionada em destaque no chão de uma quadra esportiva. Ao fundo, uma bola de futebol de salão e as traves do gol aparecem desfocadas. O ambiente segue uma paleta de cores em tons de azul escuro.">
     <div>
-         <h2>A quantidade de dados no mundo e surreal </h2>
+         <h2>pavão azul indiano </h2>
             <p class="artigo-autor">Por: Otavio de Souza</p>
-            <p>Estima-se que 90% de todos os dados do existentes no mundo hoje foram gerados apenas nos últimos dois anos.
-                Vivemos em uma verdadeira explosão de informações que não para de acelerar
+            <p> voce sabia que ixiste vairias multaçoes de pavoens? uma dela é o pavao azul real e tambem conhecido como pavao indiano, abitante das florestas da india,
+                por ser uma coloraçao ansestral e o mais barato no mercado de aves e o mais facil de criar, seu valor é aproximadamente 
             </p>
             <button>卐 <span>0</span></button>
             <button>🥸  <span>0</span></button>
