@@ -1,64 +1,226 @@
-<!DOCTYPE html>
- <html lang="pt-br">
- <head>
-    <meta charset="UTF-8">
-    <meta name="width=device-width, initial-scale=1.0">
-    <title>blog</title>
-    <link rel="stylesheet" href="" class="css">
-      </head>
+html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <style>
+     :root{
+        --cor-primaria: #c9ccce;
+        --cor-secundaria: #3a638e;
+        --cor-fundo: #FFFFFF;
+--cor-texto:  #151428;
+--cor-contraste:#f3eef7;
+--cor-botao: #f9f9f9;
 
- <body>
-      <header>
-     
-    <h1>meu blog sobr aves</h1>
-    <p>hoje vim compartilhar um pouco dos meus conhecimentos sobre multacao de pavoens </p>
-    </header>
-    </main>
-           <article>
- <img src="imagem-blog.png" 
-    alt="Logotipo conceitual de tecnologia e educacao:um livro aberto de onde emerge um celebro digital brilhante, cercado por icones de Wi-Fi,ciquitos e lanpadas
-    de ideia. Cores em tom de azul e branco">
-    <div
-     <h2>meu primeiro post</h2>
-    <p> class= "artigo-autor" por Gustavo Henrique Martini Schmoller</p>
-    <p>Boas-vindas ao meu novo blog! aqui vou compartilhar muitas dicas sobre multacao de pavoens</p>
-    
-    <button> 🩵 <span>0</span></button>
-    <button> 🤙 <span>0</span></button>
-  </div>
-</article>
-    <article>
-      <img src="imagem-blog.png" 
-    alt="Logotipo conceitual de tecnologia e educacao:um livro aberto de onde emerge um celebro digital brilhante, cercado por icones de Wi-Fi,ciquitos e lanpadas
-    de ideia. Cores em tom de azul e branco">
-    <div
-     <h2>meu segundo post</h2>
-    <p> class= "artigo-autor" por Gustavo Henrique Martini Schmoller</p>
-    <p>Boas-vindas ao meu novo blog! aqui vou compartilhar muitas dicas sobre especies de faisao</p>
-    
-    <button> 🩵 <span>0</span></button>
-    <button> 🤙 <span>0</span></button>
-  </div>
-    </article>
-t</h2>
-    </main>
-    <script src="escrip.js"></script>
-  </body>
- </html>
-const botoes = document.querySelectorAll("button");
+--fonte-texto: 'segue UI', sans-serif;
+     }  
 
-  botoes.forEach(function(botao){
-  let curtiu = false;
- botao.addEventListener("click", botaoClicado)
-     function botaoClicado(){
-     console.log("fui clicado");
-      let texto = botao.querySelector("span");
-      if (curtiu === false){
-      texto.textContent++;
-      curtiu = true;
-     }  else{
-       texto.textContent--;
-       curtiu = false
+     *{
+transition: background-color 0.3s ease;
 
      }
-    })
+
+     .tema-escuro {
+        --cor-primaria: #183C63;
+        --cor-secundaria: #3a638e;
+        --cor-fundo: #0e0808;
+        --cor-texto:  #151428;
+        --cor-contraste:#3b0c61;
+        --cor-botao: #fd0000;
+     }
+
+     .tema-escuro h2 {
+color: var(--cor-secundaria);
+
+     }
+
+     .tema-escuro p {
+color: var(--cor-texto);
+
+     }
+
+     .tema-escuro header p {
+color: var(--cor-contraste);
+
+     }
+
+     .tema-escuro .btn-tema-escuro{
+background-color: var(--cor-secundaria);
+
+     }
+
+       body {
+        max-width: 100vw;
+        font-family: var(--fonte-texto);
+ }
+ 
+ header {
+background-color: var(--cor-primaria);
+color: var(--cor-contraste);
+text-align: center;
+margin: 0 auto;
+padding: 16px;
+      }
+
+      main{
+        background-color: var(--cor-fundo);
+        color: var(--cor-primaria);
+        margin: 0 auto;
+        padding: 16px;
+
+        display: flex;
+        flex-wrap: wrap;
+ }
+
+ article{
+    display: flex;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
+    margin: 16px;
+gap: 16px;
+padding: 16px;
+
+flex: 1 1 25%;
+
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+ }
+
+        img{
+width: 80px;
+height: 80px;
+        }
+        .artigo-autor {
+            font-weight: bold;
+        }
+
+        .btn-tema-escuro {
+position: fixed;
+bottom: 16px;
+right: 16px;
+font-size: 32px;
+padding: 12px;
+background-color: var(--cor-primaria);
+border-radius: 50%;
+            }
+
+
+        </style>
+
+
+    </head>
+
+    <body>
+        <header>
+        <h1>Meu blog sobre pavoens</h1>
+        <p>Vou compartilhar meus conhecimentos sbre multaçoens de pavaons</p> 
+        </header>
+        <main>
+            <article>
+                <img src="imagem .png"
+                 alt="Chuteira de futsal Joma Top Flex Pro 5 na cor azul com detalhes em branco, posicionada em destaque no chão de uma quadra esportiva. Ao fundo, uma bola de futebol de salão e as traves do gol aparecem desfocadas. O ambiente segue uma paleta de cores em tons de azul escuro.">
+    <div>
+         <h2>Meu primeiro post</h2>
+            <p class="artigo-autor">Por: Gustavo Henrique Martini Schmoller </p>
+            <p>Boas vindas ao meu novo blog! Aqui vou compartilhar meus conhecimentos de pavoens e outras aves</p>
+            <button>卐 <span>0</span></button>
+            <button>🥸  <span>0</span></button>
+    </div>
+
+            </article>
+
+             <article>
+                <img src="imagem-blog.png"
+                 alt="Chuteira de futsal Joma Top Flex Pro 5 na cor azul com detalhes em branco, posicionada em destaque no chão de uma quadra esportiva. Ao fundo, uma bola de futebol de salão e as traves do gol aparecem desfocadas. O ambiente segue uma paleta de cores em tons de azul escuro.">
+    <div>
+         <h2>pavão azul indiano </h2>
+            <p class="artigo-autor">Por: Otavio de Souza</p>
+            <p> voce sabia que ixiste vairias multaçoes de pavoens? uma dela é o pavao azul real e tambem conhecido como pavao indiano, abitante das florestas da india,
+                por ser uma coloraçao ansestral e o mais barato no mercado de aves e o mais facil de criar, o valor do casal se aproximadamente 1500.
+            </p>
+            <button>卐 <span>0</span></button>
+            <button>🥸  <span>0</span></button>
+    </div>
+
+            </article>
+
+            <article>
+                <img src="imagem-blog.png"
+                 alt="Chuteira de futsal Joma Top Flex Pro 5 na cor azul com detalhes em branco, posicionada em destaque no chão de uma quadra esportiva. Ao fundo, uma bola de futebol de salão e as traves do gol aparecem desfocadas. O ambiente segue uma paleta de cores em tons de azul escuro.">
+    <div>
+         <h2>A primeira webcam servia para vigiar café </h2>
+            <p class="artigo-autor">Por: Gustavo Henrique Martini Schmoller</p>
+            <p> O pavão Indiano abre muitas multaçens, algumas delas temos aqui no brasil, e outras vemos com batante frequencia fora do Brasil, uma das multaçoens que temos muito aqui no brasil é o pavão branco,
+                que naõ é albino e sim uma falta de melanina nas penas e no corpo</p>
+            <button>卐 <span>0</span></button>
+            <button>🥸  <span>0</span></button>
+    </div>
+
+            </article>
+
+             <article>
+                <img src="mouse1.jpeg"
+                 alt="Chuteira de futsal Joma Top Flex Pro 5 na cor azul com detalhes em branco, posicionada em destaque no chão de uma quadra esportiva. Ao fundo, uma bola de futebol de salão e as traves do gol aparecem desfocadas. O ambiente segue uma paleta de cores em tons de azul escuro.">
+    <div>
+         <h2>O primeiro mouse não era de plastico</h2>
+            <p class="artigo-autor">Por: Gustavo Henrique Martini Schmoller</p>
+            <p> </p>
+            <button>卐 <span>0</span></button>
+            <button>🥸  <span>0</span></button>
+    </div>
+
+            </article>
+
+           <button class="btn-tema-escuro">🌘</button>
+
+        </main>
+       </body>
+       
+       <script>
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach(function(botao){
+            botao.addEventListener("click", botaoClicado);
+            function botaoClicado(){
+                console.log("fui clicado");
+                let texto = botao.querySelector("span");
+                texto.textContent++;
+            }
+
+        })
+
+    const botoes = document.querySelectorAll("button");
+
+        botoes.forEach(function(botao) {
+            let curtiu = false;
+            botao.addEventListener("click", botaoClicado);
+            function botaoClicado(){
+                console.log("fui clicado");
+                let texto = botao.querySelector("span");
+                if ( curtiu === false){
+texto.textContent++;
+curtiu = true;
+                }else{
+                texto.textContent++;
+                curtiu = false;
+                }
+            }
+        })
+
+        const btnTemaEscuro = document.querySelectorAll(".btn=tema-escuro");
+
+         btnTemaEscuro.addEventListener("click", mudaTema);
+
+function mudaTema() {
+    const corpoPagina = document.body;
+    if (corpoPagina.classList.contains("tema-escuro")) {
+        corpoPagina.classList.remove("tema-escuro");
+    } else {
+        corpoPagina.classList.add("tema-escuro");
+    }
+}
+
+       </script>
+ </html>
